@@ -1,0 +1,7 @@
+{
+  "projects": {
+    "default": "fir-auth-development-b551c",
+    "dev": "fir-auth-development-b551c",
+    "prod": "fir-auth-production-ec825"
+  }
+}
