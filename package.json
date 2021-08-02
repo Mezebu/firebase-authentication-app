@@ -21,8 +21,11 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "build:dev":"env-cmd -f .env.development run yarn build && firebase deploy -P dev",
+    "build:prod":"env-cmd -f .env.production run yarn build && firebase deploy -P prod",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
+    
   },
   "eslintConfig": {
     "extends": [
@@ -42,4 +45,5 @@
       "last 1 safari version"
     ]
   }
+  
 }
