@@ -39,10 +39,9 @@ const Dashboard = () => {
       </AppBar>
       <Container>
         {error && <Alert severity="warning">{error}</Alert>}
-        <h1>Dashboardkk</h1>
+        <h1>Dashboard</h1>
         <div>
           <strong>Email:</strong> {currentUser.email} <br />
-          <strong>Name:</strong> {currentUser.displayName}
         </div>
       </Container>
     </div>
